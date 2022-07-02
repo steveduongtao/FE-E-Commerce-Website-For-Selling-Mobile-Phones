@@ -21,7 +21,7 @@ function Home(props) {
             try {
                 const res = await getApi("/admin/product/list");
                 console.log(23,'res',res)
-                // setstate(res.data);
+                setstate(res.data);
             } catch (error) {
                 console.log(168, error);
             }
@@ -190,7 +190,7 @@ function Home(props) {
 
                 <div className="productNew">
                     <h2>New Products</h2>
-                    <Table columns={columns} dataSource={database} pagination={false} />
+                    <Table columns={columns} dataSource={database} pagination={false}/>
                 </div>
 
                 <div className="Note">

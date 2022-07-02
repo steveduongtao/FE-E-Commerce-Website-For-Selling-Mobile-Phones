@@ -10,7 +10,7 @@ import Danggiao from "./Pages/Admin/DonhangFolder/Danggiao"
 import Khohang from "./Pages/Admin/Sanpham/Khohang";
 import Spmoi from "./Pages/Admin/Sanpham/Spmoi";
 import Trenke from "./Pages/Admin/Sanpham/Trenke";
-import Nhanvien from './Pages/Admin/NhanVien/Nhanvien'
+import Nhanvien from './Pages/Admin/Nhanvien/Nhanvien'
 import React, { useState, useEffect } from "react";
 import axios from "./axios";
 import Login from "./Pages/Admin/Login/login";
